@@ -28,7 +28,7 @@ $data = $db->query("SELECT * FROM dosen");
         <div class="col-12">
           <div class="card">
             <div class="card-header">
-              <a href='../admin?p=tambah_dosen' class='btn btn-sm btn-success'>Tambah</a>
+              <a href='../dosen?p=tambah_dosen' class='btn btn-sm btn-success'>Tambah</a>
               
               <table class="table table-striped table-hover">
                 <thead>

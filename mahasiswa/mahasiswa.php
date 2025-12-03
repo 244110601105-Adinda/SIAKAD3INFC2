@@ -44,9 +44,9 @@ $jumlah = $data->num_rows;
         <div class="col-12">
           <div class="card">
             <div class="card-header">
-              <a href='../admin?p=tambah_mahasiswa' class='btn btn-sm btn-success'>Tambah</a>
+              <a href='../mahasiswa?p=tambah_mahasiswa' class='btn btn-sm btn-success'>Tambah</a>
               <table><tr><td>
-<a href="../admin?p=update-mahasiswa" class="btn btn-primary" style="width: 150px">+ Mahasiswa</a>
+<a href="../mahasiswa?p=update-mahasiswa" class="btn btn-primary" style="width: 150px">+ Mahasiswa</a>
 </td><td width="50"></td><td>
 <form method="post" action="#">
 <input type='text' name='keyword' placeholder='Masukkan Kata Kunci' value='<?=$keyword?>'>
