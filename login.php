@@ -1,7 +1,7 @@
 <?php
 session_start();
 error_reporting(0);
-$_SESSION['isLogin']=false;
+
 if(isset($_POST['btnLogin'])){
     $tuser=$_POST['tuser'];
     $tpass=$_POST['tpass'];
