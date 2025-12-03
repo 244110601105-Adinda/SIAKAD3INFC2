@@ -3,13 +3,13 @@ error_reporting(0);
 date_default_timezone_set('Asia/Jakarta');
 
 session_start();
-if($_SESSION['isLogin'] !=true or $_SESSION['level'] !="mhs"){
+if($_SESSION['isLogin'] !=true or $_SESSION['level'] !="dosen"){
     header("location:../login.php");
 }
 ?>
 <!doctype html>
 <html lang="en">
-<!--begin::Head-->11
+<!--begin::Head-->
 
 <head>
   <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
@@ -335,9 +335,9 @@ if($_SESSION['isLogin'] !=true or $_SESSION['level'] !="mhs"){
               </a>
             </li>
             <li class="nav-item">
-              <a href="./?p=mahasiswa" class="nav-link">
+              <a href="./?p=dosen" class="nav-link">
                 <i class="nav-icon bi bi-circle-fill"></i>
-                <p>Mahasiswa</p>
+                <p>Dosen</p>
               </a>
             </li>
             <li class="nav-item">
